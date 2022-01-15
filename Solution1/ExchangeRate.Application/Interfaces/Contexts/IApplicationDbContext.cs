@@ -15,8 +15,8 @@ namespace ExchangeRate.Application.Interfaces.Contexts
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 
         DbSet<Bank> Banks { get; set; }
-        DbSet<Currency> Currencys { get; set; }
-        DbSet<BankCurrency> BankCurrencys { get; set;}
-        DbSet<ExchangeRateData> ExchangeRates { get; set; }
+        DbSet<Currency> Currencies { get; set; }
+        DbSet<BankCurrency> BankCurrencies { get; set;}
+        DbSet<ExchangeRateData> ExchangeRateDatas { get; set; }
     }
 }
