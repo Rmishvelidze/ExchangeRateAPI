@@ -28,7 +28,6 @@
 
   <ItemGroup>
     <Folder Include="Features\BanksByCurrency\Commands\" />
-    <Folder Include="Features\BanksByCurrency\Queries\" />
     <Folder Include="Features\Banks\Commands\" />
     <Folder Include="Features\Logs\Commands\" />
     <Folder Include="Features\Logs\Queries\" />
