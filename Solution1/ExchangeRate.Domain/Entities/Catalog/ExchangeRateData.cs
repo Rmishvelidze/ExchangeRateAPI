@@ -8,8 +8,8 @@ namespace ExchangeRate.Domain.Entities.Catalog
         public int BankId { get; set; }
         public int BuyCurrencyId { get; set; }
         public int SellCurrencyId { get; set; }
-        public decimal? Buy { get; set; }
-        public decimal? Sell { get; set; }
+        public decimal? BuyRate { get; set; }
+        public decimal? SellRate { get; set; }
 
         public virtual Bank Bank { get; set; }
         public virtual Currency BuyCurrency { get; set; }
