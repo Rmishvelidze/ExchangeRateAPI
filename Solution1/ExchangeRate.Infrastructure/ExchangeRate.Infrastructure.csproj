@@ -33,9 +33,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Extentions\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
     <Folder Include="NewFolder4\" />
   </ItemGroup>
 
